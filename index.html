@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="/ff.ico">
+    <title>Portfolio Fernando</title>
+    <style>
+        body {
+            --navBotton-height: 50px;
+            padding-bottom: var(--navBotton-height);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="firstNav">
+        <nav class="nav" id="nav">
+            <li id="fecha"> </li>
+            <li class="contact" id="skill">Skill</li>
+            <li class="contact" id="projectosNav">Projects</li>
+            <li class="contact" id="contactNav">Contact</li>
+            <button class="switch" id="switch">
+                <span class="sun"><i class="fas fa-sun"></i></span>
+                <span class="sun"><i class="fas fa-moon"></i></span>
+            </button>
+        </nav>
+    </div>
+
+    <div class="titulo">
+        <span class="text first-text"> I'm a </span>
+        <span class="text second-text"></span>
+    </div>
+
+    <section class="persoanlDatails">
+        <div class="info-content">
+            <h1 class="im">I'm Fernando</h1>
+            <p> I have a degree in Sociology from the University of Granada.
+                I have lived and worked in the United Kingdom for 6 months
+                and also for 1 year in Australia,
+                where I have acquired a fluent level of English
+                (B2) by the school of "Pacific English Study" (Gold Coast).
+                After working in different sectors, I decided to study what
+                I am really passionate about and
+                I am currently studying a CFGS in Web Application Development
+                at the Open University of Cataluña.</p>
+            <a download href="static/CV Fernando.pdf">
+                <button class="btn-download"> Download CV</button>
+            </a>
+        </div>
+        <div class="home-social">
+            <div>
+                <img class="imagen" src="./fernando.jpeg" alt="">
+            </div>
+            <div class="home-icon">
+                <a href="https://www.linkedin.com/in/fernando-fernandez-aguil%C3%B3-1203a3246/" target="_blank"
+                    class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/FernanDezlo92" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <hr data-aos="fade-down" id="linea">
+    </hr>
+
+    <div>
+        <h1 class="titleSkill" data-aos="fade-up" data-aos-duration="1500" data-easing="linear" id="titleSkill">
+            SKILL</h1>
+        <h3 class="titleSkillMe" data-aos="fade-up" data-aos-duration="1600" data-easing="linear"><i id="spin"
+                class="fa-solid fa-arrow-down fa-bounce"></i> My tecnical level <i id="spin"
+                class="fa-solid fa-arrow-down fa-bounce"></i> </h3>
+        <div class="skill">
+            <div class="css">
+                <h1 data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"><i
+                        class="fa-brands fa-css3-alt" id="iconSkill"></i>CSS</h1>
+            </div>
+
+            <div class="html">
+                <h1 data-aos="fade-zoom-in" data-aos-delay="200" data-aos-offset="0" data-aos-easing="ease-in-back">
+                    <i class="fa-brands fa-html5" id="iconSkill"></i>HTML
+                </h1>
+            </div>
+
+            <div class="js">
+                <h1 data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine"><i class="fa-brands fa-js"
+                        id="iconSkill"></i>JavaScript</h1>
+            </div>
+
+            <div class="python">
+                <h1 data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"><i
+                        class="fa-brands fa-python" id="iconSkill"></i>Python</h1>
+            </div>
+
+            <div class="Django">
+                <h1 data-aos="fade-zoom-in" data-aos-delay="200" data-aos-offset="0" data-aos-easing="ease-in-back">
+                    <i class="fa-solid fa-file-code" id="iconSkill"></i>Django
+                </h1>
+            </div>
+
+            <div class="boostrap">
+                <h1 data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine"><i
+                        class="fa-brands fa-bootstrap" id="iconSkill"></i>Boostrap</h1>
+            </div>
+
+            <div class="git">
+                <h1 data-aos="fade-right" data-aos-offset="20" data-aos-easing="ease-in-sine"><i
+                        class="fa-brands fa-git-alt" id="iconSkill"></i>GitHub</h1>
+            </div>
+
+            <div class="sql">
+                <h1 data-aos="fade-right" data-aos-offset="20" data-aos-easing="ease-in-sine"><i
+                        class="fa-brands fa-deskpro" id="iconSkill"></i>SQL</h1>
+            </div>
+        </div>
+    </div>
+
+    <hr data-aos="fade-down" id="lineaAbout">
+    </hr>
+
+
+    <div>
+        <h1 class="titleSkill" data-aos="fade-up" data-aos-duration="1500" data-easing="linear" id="titleSkill">
+            PROJECTS</h1>
+        <h3 id="titleSkillMeDown" class="titleSkillMe" data-aos="fade-up" data-aos-duration="1600" data-easing="linear">
+            <i id="spinProject" class="fa-solid fa-cog fa-spin fa-spin-reverse"></i>Web and Experiment<i
+                id="spinProject" class="fa-solid fa-cog fa-spin fa-spin"></i>
+        </h3>
+    </div>
+
+    <div class="webs">
+        <div class="container">
+            <h1 id="frame1" hidden>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-git-alt"></i>
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-solid fa-file-code"></i>
+            </h1>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1500" data-easing="linear" id="card1">
+            <img src="/pru.png" alt="Avatar" class="imagenProject">
+        </div>
+        <p id="projectosText1" hidden><b>CS50W:</b>
+            Topics include database design,
+            scalability, security, and user experience.
+            Through hands-on projects, I'm learning to write and use APIs,
+            create interactive UIs, and leverage cloud services like GitHub
+            and Heroku. By course's end, I'll emerge with knowledge
+            and experience</p>
+    </div>
+    <div data-aos="fade-up" data-aos-duration="1500" data-easing="linear" class="webs">
+        <div class="container">
+            <h1 id="frame2" hidden>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+
+            </h1>
+        </div>
+        <div id="card2">
+            <img src="/1ptf.png" alt="Avatar" class="imagenProject">
+        </div>
+        <p id="projectosText2" hidden><b>PORTFOLIO:</b>
+            In this project, I have used web design tools. I have been working
+            on this portfolio in a professional way,
+            applying the knowledge that I have been get in this year. </p>
+    </div>
+    <div data-aos="fade-up" data-aos-duration="1500" data-easing="linear" class="webs">
+        <div class="container">
+            <h1 id="frame3" hidden>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-git-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+            </h1>
+        </div>
+        <div id="card3">
+            <img src="/444.jpg" alt="Avatar" class="imagenProject">
+        </div>
+        <p id="projectosText3" hidden><b>WEB:</b>
+            It is my web experiment in which I am still working on it, designing
+            and modulating each of its parts to be able to make a final product
+            safely. I hope to have a breakthrough soon.</p>
+    </div>
+
+    <nav class="navBotton" id="navBotton">
+        <ul class="navBotton-list">
+            <li class="navBotton-item" id="navBotton-item1" hidden><i class="fa fa-home"></i></li>
+            <li class="navBotton-item" id="navBotton-item2" hidden><i class="fa fa-book"></i></li>
+            <li class="navBotton-item" id="navBotton-item3" hidden><i class="fa-solid fa-palette"></i></li>
+            <li class="navBotton-item" id="navBotton-item4" hidden><i class="fa fa-pencil"></i></li>
+            <button class="btn-up" id="btn-up">
+                <i class="fas fa-plus-circle"></i>
+            </button>
+        </ul>
+    </nav>
+
+    <hr data-aos="fade-down" id="lineaFin">
+    </hr>
+
+    <footer data-aos="fade-up" data-aos-duration="1500" data-easing="linear" class="footerBody">
+        <div class="bubbles">
+            <span style="--i:11"><i class="fa-brands fa-css3-alt" id="iconSkillFin"></span></i>
+            <span style="--i:22"><i class="fa-brands fa-html5" id="iconSkillFin"></span></i>
+            <span style="--i:33"><i class="fa-brands fa-js" id="iconSkillFin"></span></i>
+            <span style="--i:44"><i class="fa-brands fa-python" id="iconSkillFin"></span></i>
+            <span style="--i:15"><i class="fa-solid fa-file-code" id="iconSkillFin"></span></i>
+            <span style="--i:26"><i class="fa-brands fa-bootstrap" id="iconSkillFin"></span></i>
+            <span style="--i:37"><i class="fa-brands fa-git-alt" id="iconSkillFin"></span></i>
+            <span style="--i:48"><i class="fa-brands fa-deskpro" id="iconSkillFin"></span></i>
+        </div>
+
+        <div class="pruebaTicket" data-aos="fade-zoom-in" data-aos-delay="600" data-aos-offset="0"
+            data-aos-easing="ease-in-back">
+            <div class="pruebaTicket2">
+                <div class="pruebaticket3">
+                    <form class="form" id="form" action="https://formsubmit.co/bea782ab558545f37ed167e4bdddd7db"
+                        method="POST">
+                        <div class="formContainer">
+                            <h2 class="formContainer" id="tittleContact">Contact</h2>
+                            <input required type="text" class="formInput" placeholder="Name" name="name">
+                            <input required type="email" class="formInput" placeholder="Email" name="email">
+                            <textarea class="formInputMessage" placeholder="Message" name="subject"></textarea>
+                            <button type="submit" class="formSubmit" value="submit" id="botonMano"><i
+                                    class="fa-solid fa-hand fa-shake" style="--fa-animation-duration: 10s"
+                                    id="mano"></i>Submit</button>
+                            <div class="back" id="back5"></div>
+                        </div>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+
+</html>
